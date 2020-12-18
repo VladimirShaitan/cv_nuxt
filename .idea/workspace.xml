@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e84b47ca-0566-4da1-bdf5-95518f596b90" name="Default Changelist" comment="" />
+    <list default="true" id="e84b47ca-0566-4da1-bdf5-95518f596b90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/Data_handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/Constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/Constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/Requests.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/Requests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/API/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/common/Addons.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/common/Addons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/common/Data_handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/common/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/common/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cv_nuxt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cv_nuxt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/JSON/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/JSON/about.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/constants.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +30,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -32,13 +49,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wp/wp-content/themes/cv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\cv-api\wp-content\themes\cv_api\API" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OSPanel\domains\wp\wp-content\themes\cv" />
     </key>
@@ -54,6 +74,12 @@
       <workItem from="1603139955921" duration="2657000" />
       <workItem from="1603179355248" duration="6000" />
       <workItem from="1603720260331" duration="14944000" />
+      <workItem from="1608035558314" duration="537000" />
+      <workItem from="1608036313287" duration="1846000" />
+      <workItem from="1608038240875" duration="319000" />
+      <workItem from="1608039196195" duration="6405000" />
+      <workItem from="1608119639876" duration="24000" />
+      <workItem from="1608303895939" duration="11530000" />
     </task>
     <servers />
   </component>
@@ -65,10 +91,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603734604339" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1603141031227">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="987" y="369" key="FileChooserDialogImpl" timestamp="1608039216945">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603141031227" />
+    <state x="987" y="369" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1608039216945" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603734654043">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -82,9 +109,21 @@
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603140683230" />
     <state x="1059" y="596" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603739384360" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1608319829492">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1608319829492" />
+    <state x="1627" y="436" width="585" height="534" key="find.popup" timestamp="1608042912683">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1627" y="436" width="585" height="534" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1608042912683" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1603728808772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1603728808772" />
+    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1608309612290">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1583" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1608309612290" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 const protocol = 'http:/';
-const domain = 'wp';
+const domain = 'cv-api';
 const apiPath = 'wp-json/cv';
 const apiVersion = 'v1';
 

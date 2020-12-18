@@ -32,7 +32,7 @@ export default {
   },
 
   async mounted() {
-    let request = await this.$axios.get('/posts/1/12');
+    let request = await this.$axios.get('/home-page');
     window.console.log(request)
   }
 

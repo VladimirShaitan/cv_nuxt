@@ -5,5 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="cv" />
+    <orderEntry type="module" module-name="cv_api" />
+    <orderEntry type="module" module-name="cv" />
   </component>
 </module>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../wp/wp-content/themes/cv/.idea/cv.iml" filepath="$PROJECT_DIR$/../wp/wp-content/themes/cv/.idea/cv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/.idea/cv.iml" filepath="$PROJECT_DIR$/../../OpenServer/domains/cv-api/wp-content/themes/cv_api/.idea/cv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../OpenServer/domains/cv_api/.idea/cv_api.iml" filepath="$PROJECT_DIR$/../../OpenServer/domains/cv_api/.idea/cv_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cv_nuxt.iml" filepath="$PROJECT_DIR$/.idea/cv_nuxt.iml" />
     </modules>
   </component>
