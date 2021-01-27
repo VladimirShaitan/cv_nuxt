@@ -703,7 +703,7 @@ th:last-child, td:last-child {
 
 button, .button {
 
-	margin-bottom: 1.2;
+	margin-bottom: 1.2rem;
 
 }
 
@@ -2229,7 +2229,7 @@ header .logo a {
 
 	border: none;
 
-	font: 0/0 a;
+	/*font: 0/0 a;*/
 
 	text-shadow: none;
 
@@ -2285,7 +2285,7 @@ header .logo a {
 
 	margin-top: -1.5px;
 
-	font: 0/0 a;
+	/*font: 0/0 a;*/
 
 	text-shadow: none;
 
@@ -4385,49 +4385,52 @@ header .logo a {
 	max-width: 1440px;
 
 }
-
+.slide-wrapper {
+  padding: 10px;
+  outline: none;
+}
 #stats .slide {
-	float: left;
 	position: relative;
 }
 #stats .slide img {
 	cursor: pointer;
 }
-.slide:before {
-	content: '\f002';
-	position: absolute;
-	left: 0;
-	width: calc(100% - 10px);
-	height: calc(100% - 9px);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: rgba(0, 0, 0, 0.5);
-	pointer-events: none;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: 32px;
-	color: white;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	opacity: 0;
-	transition: .3s opacity;
-	z-index: -1;
-	cursor: pointer;
-}
-.slide:hover:before{
-	opacity: 1;
-	z-index: 1;
-}
-#stats .stat:first-child {
+/*.slide:before {*/
+/*	content: '\f002';*/
+/*	position: absolute;*/
+/*	left: 0;*/
+/*	width: 100%;*/
+/*	height: 100%;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	justify-content: center;*/
+/*	background: rgba(0, 0, 0, 0.5);*/
+/*	pointer-events: none;*/
+/*	font: normal normal normal 14px/1 FontAwesome;*/
+/*	font-size: 32px;*/
+/*	color: white;*/
+/*	text-rendering: auto;*/
+/*	-webkit-font-smoothing: antialiased;*/
+/*	-moz-osx-font-smoothing: grayscale;*/
+/*	opacity: 0;*/
+/*	transition: .3s opacity;*/
+/*	z-index: -1;*/
+/*	cursor: pointer;*/
 
-	border: none;
+/*}*/
+/*.slide:hover:before{*/
+/*	opacity: 1;*/
+/*	z-index: 1;*/
+/*}*/
+/*#stats .stat:first-child {*/
 
-}
-.stats-list {
-	overflow: hidden;
-	position: relative;
-}
+/*	border: none;*/
+
+/*}*/
+/*.stats-list {*/
+/*	overflow: hidden;*/
+/*	position: relative;*/
+/*}*/
 #stats .icon-part i {
 
 	font-size: 4.8rem;

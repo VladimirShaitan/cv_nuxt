@@ -3,46 +3,34 @@
         <div class="overlay"></div>
         <div class="row section-intro">
             <div class="col-twelve">
-                <h5>Services</h5>
-                <h1>What Can I Do For You?</h1>
-                <p class="lead">
-                    A website I think because I'm a web developer, but also we can drink some ( tea? no way! ) and talk about things
-                </p>
+                <h5>{{services.title}}</h5>
+                <h1>{{services.sub_title}}</h1>
+                <p class="lead">{{services.description}}</p>
             </div>
-        </div> <!-- /section-intro -->
+        </div>
         <div class="row services-content">
             <div class="services-list">
 
-                <template v-for="(service, index) in services">
+                <template v-for="(service, index) in services.data">
                     <div class="service" :key="index">
                         <span class="icon"><i :class="service.icon"></i></span>
                         <div class="service-content">
-                            <h3>{{service.name}}</h3>
+                            <h3>{{service.title}}</h3>
                             <p class="desc">{{service.description}}</p>
                         </div>
-                    </div> <!-- /service -->
+                    </div>
                 </template>
 
-            </div> <!-- /services-list -->
-        </div> <!-- /services-content -->
-    </section> <!-- /services -->
+            </div>
+        </div>
+    </section>
 </template>
 
 
 
 <script>
-    import services from '../assets/JSON/services.json';
-
     export default {
+        props: ['services'],
         name: "Services",
-        data() {
-            return {
-                services: services
-            }
-        }
     }
 </script>
-
-<style scoped>
-
-</style>

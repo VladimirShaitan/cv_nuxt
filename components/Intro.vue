@@ -4,36 +4,30 @@
         <div class="intro-content">
             <div class="row">
                 <div class="col-twelve">
-                    <h5>Hello, World.</h5>
-                    <h1>I'm {{aboutMe.name}}</h1>
+                    <h5>{{info.top_title}}</h5>
+                    <h1>{{info.top_name}}</h1>
                     <p class="intro-position">
-                        <span v-for="(position, index) in aboutMe.positions" :key="index">
+                        <span v-for="(position, index) in info.top_positions" :key="index">
                             {{position}}
                         </span>
                     </p>
-                    <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+                    <a class="button stroke smoothscroll" href="#about" title="">{{info.top_btn}}</a>
                 </div>
             </div>
-        </div> <!-- /intro-content -->
-        <ul class="intro-social" v-if="aboutMe.socials != false">
-            <li v-for="(social, index) in aboutMe.socials" :key="index">
-                <a :href="social.href" target="_blank">
+        </div>
+        <ul class="intro-social">
+            <li v-for="(social, index) of socials" :key="index">
+                <a :href="social.url" target="_blank">
                     <i :class="'fa fa-'+social.name"></i>
                 </a>
             </li>
-        </ul> <!-- /intro-social -->
-    </section> <!-- /intro -->
+        </ul>
+    </section>
 </template>
 
 <script>
-    import about from '../assets/JSON/about.json';
-
     export default {
-        name: "Intro",
-        data() {
-            return {
-                aboutMe: about,
-            };
-        }
+      name: "Intro",
+      props: ['info', 'socials'],
     }
 </script>

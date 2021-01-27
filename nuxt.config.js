@@ -7,7 +7,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
       { rel: 'stylesheet', href: '/css/fonts.css' },
       { rel: 'stylesheet', href: '/css/font-awesome/css/font-awesome.min.css' },
       { rel: 'stylesheet', href: '/css/micons/micons.css' },
@@ -16,7 +16,7 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/vendor.css' },
     ],
   },
-  loading: { color: '#3B8070' },
+  loading: { color: '#FF0077' },
   modules: ['@nuxtjs/axios'],
   plugins: [
     '~/plugins/axios'
